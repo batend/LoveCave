@@ -5,7 +5,7 @@ class StaticPagesController < ApplicationController
   def help
   end
 
-  def events
+  def memories
   end
   
 end

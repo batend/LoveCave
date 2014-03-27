@@ -1,7 +1,9 @@
 LoveCave::Application.routes.draw do
-  get "static_pages/home"
-  get "static_pages/help"
-  get "static_pages/events"
+  get "users/new"
+  root  'static_pages#home'
+  match '/help', to: 'static_pages#help', via: 'get'
+  match '/memories', to: 'static_pages#memories', via: 'get'
+  match '/signup', to:'users#new', via: 'get'
   resources :comments
 
   resources :events
