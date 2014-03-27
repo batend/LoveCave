@@ -37,6 +37,14 @@ group :production do
 	gem 'rails_12factor', '0.0.2'
 end
 
+group :test do
+	gem 'rspec-rails', '2.13.1'
+	gem 'selenium-webdriver', '2.35.1'
+	gem 'capybara', '2.1.0'
+
+	#add for auto test
+	gem 'libnotify', '0.8.0'
+end
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
