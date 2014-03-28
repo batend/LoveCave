@@ -4,6 +4,7 @@ LoveCave::Application.routes.draw do
   match '/help', to: 'static_pages#help', via: 'get'
   match '/memories', to: 'static_pages#memories', via: 'get'
   match '/signup', to:'users#new', via: 'get'
+  
   resources :comments
 
   resources :events

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  like: MyString
+  dislike: MyString
+  color: MyString
+  place: MyString
+  dream: MyString
+
+two:
+  like: MyString
+  dislike: MyString
+  color: MyString
+  place: MyString
+  dream: MyString
